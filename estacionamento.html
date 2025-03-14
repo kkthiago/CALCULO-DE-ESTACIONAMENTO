@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Estacionamento</title>
+    <link rel="stylesheet" href="estacionamento.css">
+</head>
+<body>
+    <header>
+        <h1> CALCULADORA DE TAXA DE ESTACIONAMENTO</h1>
+        <h2> Insira o valor que deseja inserir, e vamos calcular quanto tempo voce terá:</h2>
+    </header>
+    <main>
+        <div id="imagem1">
+            <img src="./imagem 1.png" alt="imagem da tabela">
+        </div>
+    
+        <div class="input-container">
+
+            <input id="valor" type="text" placeholder="VALOR (R$):"> 
+
+            <button id="calcular" onclick="calculoEST()">CALCULAR</button>
+            <button id="limpar" onclick="limpar()">LIMPAR</button>
+
+            <p id="paragrafo"></p>
+
+        </div>
+    </main>
+    <script src="estacionamento.js"></script>
+</body>
+<footer>
+    <p>&copy; Thiago Alves Soares, 2025, Todos direitos reservados.</p>
+</footer>
+</html>
